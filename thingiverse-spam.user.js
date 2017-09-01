@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Thingiverse Spam Remover
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Automatically remove spam posts from dashboard, because Thingiverse can't be bothered!
+// @author       Criznach
 // @match        http*://www.thingiverse.com/*
 // @grant        unsafeWindow
 // ==/UserScript==
