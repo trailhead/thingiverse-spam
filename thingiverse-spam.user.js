@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Automatically remove spam posts from dashboard, because Thingiverse can't be bothered!
 // @author       Criznach
-// @match        http*://www.thingiverse.com/*
+// @match        http*://www.thingiverse.com/dashboard*
 // @grant        unsafeWindow
 // ==/UserScript==
 
@@ -25,6 +25,6 @@
     init_jquery();
 
     $(".row_item.personal_notification:contains('medelis')").each(function() {
-        $(this).remove();
+        $(this).hide();
     });
 })();
